@@ -36,7 +36,14 @@ class AWSPrices
     end
 
     def update_prices
-        pricing_document = ::JSON.load(Net::HTTP.get(URI(PRICING_DOCUMENT)))
+        uri = URI(PRICING_DOCUMENT)
+        http = Net::HTTP.new uri.host, uri.port
+        http.open_timeout = 60
+        http.read_timeout = 60
+
+        response = http.get uri.path
+        
+        pricing_document = ::JSON.load response.body
         
         currency = pricing_document['config']['currencies'].first
         
