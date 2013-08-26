@@ -14,6 +14,8 @@ class AWSPrices
             'm2.xlarge' => ['hiMemODI', 'xl'],
             'm2.2xlarge' => ['hiMemODI', 'xxl'],
             'm2.4xlarge' => ['hiMemODI', 'xxxxl'],
+            'm3.xlarge' => ['secgenstdODI','xl'],
+            'm3.2xlarge' => ['secgenstdODI','xxl'],
             'c1.medium' => ['hiCPUODI', 'med'],
             'c1.xlarge' => ['hiCPUODI', 'xl'],
             'cc1.4xlarge' => ['clusterComputeI', 'xxxxl'],
