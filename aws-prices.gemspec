@@ -3,13 +3,13 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "aws-prices"
-  s.version     = '0.1.2'
+  s.version     = '0.2.0'
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Brandon Adams"]
   s.email       = ["brandon.adams@me.com"]
   s.homepage    = "http://github.com/adamsb6/aws-prices"
   s.summary     = "Retrives on-demand prices for EC2 instances"
-  s.description = "Scrapes Amazon-served JSON documents, providing an easy interface for programmers."
+  s.description = "Provides an interface to prices at www.awsnow.info."
 
   s.rubyforge_project = "aws-prices"
 

@@ -1,6 +1,6 @@
 # aws-prices
 
-Retrieves pricing information from AWS JSON documents.
+Retrieves pricing information from www.awsnow.info.
 
 ## Usage
 
