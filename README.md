@@ -1,6 +1,6 @@
 # aws-prices
 
-Retrieves pricing information from www.awsnow.info.
+Retrieves pricing information from http://api.cloudomix.com/.
 
 ## Usage
 
